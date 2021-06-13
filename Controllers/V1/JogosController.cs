@@ -1,4 +1,5 @@
-﻿using ApiCatalogoJogosAlex.InputModel;
+﻿using ApiCatalogoJogosAlex.Exceptions;
+using ApiCatalogoJogosAlex.InputModel;
 using ApiCatalogoJogosAlex.Services;
 using ApiCatalogoJogosAlex.ViewModel;
 using Microsoft.AspNetCore.Http;
@@ -54,8 +55,7 @@ namespace ApiCatalogoJogosAlex.Controllers.V1
 
                 return Ok(jogo);
             }
-            //catch (JogoJaCadastradoException ex)
-            catch(Exception ex)
+            catch (JogoJaCadastradoException ex)            
             {
                 return UnprocessableEntity("Já existe um jogo com este nome para esta produtora");
             }
@@ -69,8 +69,7 @@ namespace ApiCatalogoJogosAlex.Controllers.V1
 
                 return Ok();
             }
-            //catch (JogoJaCadastradoException ex)
-            catch (Exception ex)
+            catch (JogoJaCadastradoException ex)           
             {
                 return NotFound("Não existe este jogo");
             }
@@ -85,8 +84,7 @@ namespace ApiCatalogoJogosAlex.Controllers.V1
 
                 return Ok();
             }
-            //catch (JogoJaCadastradoException ex)
-            catch (Exception ex)
+            catch (JogoJaCadastradoException ex)           
             {
                 return NotFound("Não existe este jogo");
             }
@@ -101,8 +99,7 @@ namespace ApiCatalogoJogosAlex.Controllers.V1
 
                 return Ok();
             }
-            //catch (JogoNaoCadastradoException ex)
-            catch (Exception ex)
+            catch (JogoNaoCadastradoException ex)            
             {
                 return NotFound("Não existe este jogo");
             }

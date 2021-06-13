@@ -24,4 +24,3 @@ C:\Users\Alex\source\DIO - BootCamp TakeBlip\ApiCatalogoJogosAlex\ApiCatalogoJog
 C:\Users\Alex\source\DIO - BootCamp TakeBlip\ApiCatalogoJogosAlex\ApiCatalogoJogosAlex\obj\Debug\netcoreapp3.1\ApiCatalogoJogosAlex.dll
 C:\Users\Alex\source\DIO - BootCamp TakeBlip\ApiCatalogoJogosAlex\ApiCatalogoJogosAlex\obj\Debug\netcoreapp3.1\ApiCatalogoJogosAlex.pdb
 C:\Users\Alex\source\DIO - BootCamp TakeBlip\ApiCatalogoJogosAlex\ApiCatalogoJogosAlex\obj\Debug\netcoreapp3.1\ApiCatalogoJogosAlex.genruntimeconfig.cache
-C:\Users\Alex\source\DIO - BootCamp TakeBlip\ApiCatalogoJogosAlex\ApiCatalogoJogosAlex\bin\Debug\netcoreapp3.1\ApiCatalogoJogosAlex.xml

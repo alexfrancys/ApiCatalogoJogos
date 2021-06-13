@@ -21,4 +21,4 @@ namespace ApiCatalogoJogosAlex.InputModel
         public double Preco { get; set; }
     }
 }
-}
+
