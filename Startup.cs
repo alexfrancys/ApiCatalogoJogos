@@ -28,7 +28,7 @@ namespace ApiCatalogoJogosAlex
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IJogoService, JogoService>();    //Injeção de dependência
-            services.AddScoped<IJogoRepository, JogoRepository>();     //Injeção de dependência       
+            services.AddScoped<IJogoRepository, JogoSQLServerRepository>();     //Injeção de dependência       
             services.AddControllers();
             services.AddSwaggerGen();
         }
